@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <script src="https://kit.fontawesome.com/42e0e8b23e.js" crossorigin="anonymous"></script>
+    <title>Juma Shafara's Meat</title>
+</head>
+<body>
+        <nav>
+            <h2>
+                Juma Shafara's 
+            </h2>
+            <h1>MeatyIpsum <i class="fa-solid fa-cow"></i></h1>
+        </nav>
+    <div class="wrapper">
+        <div class="info">
+            <h2>
+                MeatyIpsum
+            </h2>
+            <p>The MeatyIpsum will generate for you random meat-lorem inpsum. You can adjust the following parameter to get your desired flesh</p>
+        </div>
+    
+        <form>
+            <label for="">
+                Paragraphs: 
+                <input type="number" name="paragraphs">
+            </label>
+            <label for="">
+                Sentences: 
+                <input type="number" name="sentences" >
+                (this overrides paragraphs)
+            </label>
+            <label for="">
+                Start-with-lorem
+                <input type="checkbox" name="start-with-lorem" id="" checked>
+            </label>
+            
+        </form>
+    
+        <div class="clear-bacon-container">
+            <button onClick = "fetchBacon()" class="get-meat btn">Get Meat</button>
+            <button onClick = "clearBacon()" class="clear-meat btn">Clear Meat</button>
+        </div>
+        <div class="output">
+    
+        </div>
+    </div>
+    <footer>
+        <p>
+            Some rights reserved &copyJuma Shafara 2022
+        </p>
+    </footer>
+</body>
+</html>
